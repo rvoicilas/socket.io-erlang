@@ -3,10 +3,11 @@
   {description, ""},
   {vsn, "1"},
   {registered, []},
-  {agner, [{requires, ["misultin", "ossp_uuid","jsx","proper","ex_uri"]}]},
+  {agner, [{requires, ["mochiweb", "misultin", "ossp_uuid","jsx","proper","ex_uri"]}]},
   {applications, [
                   kernel,
                   stdlib,
+                  mochiweb,
 		  misultin
                  ]},
   {mod, { socketio_app, []}},
